@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4901280e-d701-4cf6-ae5e-a6567253424b" name="Default Changelist" comment="" />
+    <list default="true" id="4901280e-d701-4cf6-ae5e-a6567253424b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Homework5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3/Lesson3.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/Lesson3.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3/exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3/modules/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/modules/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson3/modules/recusrion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson3/modules/recusrion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4/lesson4_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/lesson4_1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson4" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
@@ -42,13 +50,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="460" y="123" key="FileChooserDialogImpl" timestamp="1601455113378">
+    <state x="460" y="123" key="FileChooserDialogImpl" timestamp="1601458786948">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="460" y="123" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1601455113378" />
+    <state x="460" y="123" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1601458786948" />
     <state x="181" y="0" key="SettingsEditor" timestamp="1601455124391">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="181" y="0" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1601455124391" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1601458762273">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1360.738@0.0.1360.738" timestamp="1601458762273" />
   </component>
 </project>
