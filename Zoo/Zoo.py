@@ -8,11 +8,19 @@ class Animals:
         if isinstance(zookeepers, int):
             self.zookeepers = zookeepers
         else:
+<<<<<<< HEAD
+            raise ValueError("Zookeepers is not integer")
+        if isinstance(cost, int):
+            self.cost = cost
+        else:
+            raise ValueError("Cost is not integer")
+=======
             raise ValueError('Zookeepers is not integer!')
         if isinstance(cost, int):
             self.cost = cost
         else:
             raise ValueError('Cost is not integer!')
+>>>>>>> d049583d1bb4ca7892ed49831e1951272140a631
     def __str__(self):
         return f"{self.name, self.dangerous}" + \
                f"{self.prey, self.cages}" + \
@@ -28,6 +36,25 @@ class Zoo:
         if isinstance(cost, int):
             self.cost = cost
         else:
+<<<<<<< HEAD
+            raise ValueError("Cost is not integer")
+        self.food = food
+        if isinstance(zookeepers, int):
+            self.zookeepers = zookeepers
+        else:
+            raise ValueError("Zookeepers is not integer")
+        if isinstance(cages, int):
+            self.cages = cages
+        else:
+            raise ValueError("Cages is not integer")
+
+    def __str__(self):
+        return f"{self.species}, {self.animals}, {self.cages}, {self.zookeepers}, " \
+               f"{self.cost}, {self.food}"
+
+def Zoo_open():
+    return "Zoo is open!"
+=======
             raise ValueError('Cost is not integer!')
         if isinstance(food, int):
             self.food = food
@@ -47,6 +74,7 @@ class Zoo:
 
     def Zoo_open(self):
         return 'Zoo is open!'
+>>>>>>> d049583d1bb4ca7892ed49831e1951272140a631
 
 class Zoo_Time(Zoo):
     def __init__(self, species, animals, cages, zookeepers, cost, food):
@@ -54,6 +82,17 @@ class Zoo_Time(Zoo):
     def __add__(self, other):
         return f"${self.cost + other.cost}"
 
+<<<<<<< HEAD
+
+cat = Animals('Manul', 'Like a cat, but wild', 'rodent', 'medium', 'mountains', 2, 10)
+print(cat)
+
+wild_cat = Animals('Snow Bars', 'If this animal is weak', 'Artiodactyls and small animals', 'Very big', 'Mountains',
+                   10, 50)
+print(wild_cat)
+
+camel = Animals('Vicugna', "It's a domestic animal", 'Grass', 'Open air', 'Mountains', 3, 5)
+=======
 cat = Animals('Manul', 'Like a cat, but wild', 'Rodents', 'Medium', 'Mountains', 2, 10)
 print(cat)
 
@@ -62,6 +101,7 @@ wild_cat = Animals('Snow Bars', 'If this animal is weak', 'Artiodactyls and smal
 print(wild_cat)
 
 camel = Animals('Vacugna', "It's a domestic animal", 'Grass', 'Open air', 'Mountains', 3, 5)
+>>>>>>> d049583d1bb4ca7892ed49831e1951272140a631
 print(camel)
 
 half_horned = Animals('White tailed wildebeest', "Don't come closer", 'Grass', 'Open air', 'Big', 3, 10)
